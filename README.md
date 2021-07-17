@@ -19,3 +19,5 @@ execute adb tcpip 5556
 2 numbers can be selected from :
 
 ( 5555/5556/5557/5558 )
+
+repeat the same for other devices
