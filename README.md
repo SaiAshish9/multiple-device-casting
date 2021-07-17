@@ -21,3 +21,14 @@ execute adb tcpip 5556
 ( 5555/5556/5557/5558 )
 
 repeat the same for other devices
+
+Then execute adb connect 192.168.0.102:5555 
+192.168.0.103:5556
+
+scrcpy -s 192.168.0.102:5555 -m 1024
+
+scrcpy -s 192.168.0.103:5556 -m 1024
+
+Disconnect from all devices
+
+adb kill-server
